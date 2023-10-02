@@ -1,0 +1,83 @@
+.profile{
+    background-color: $black;
+    color: $white;
+    font-size: 16px;
+    h1{
+        font-size: 60px;
+        @media (max-width: 768px) {
+           
+              font-size: 40px;
+            }
+    }
+    .grey{
+        color:#ccccc6;
+        font-size:1.3rem;
+        margin-top: 1.5rem !important
+    }
+    .allrow{
+        border-bottom: none !important;
+    }
+    .strive{
+        width: 95%;
+        color: $white
+    }
+    .offset-4{
+        .btn-secondary{
+        background-color:#333333
+        }
+    }
+    .position-relative{
+        width:fit-content !important;
+        display:flex;
+        justify-content:center
+    }
+    .img-fluid{
+        max-height: 150px;
+    }
+    .badge{
+        top: 70px;
+        color: $white;
+        border-color:$white;
+        border-radius:100%;
+        opacity: 0.7;
+        a{
+            color: $white;
+        }
+    }
+    button{
+        border-radius: 0;
+        width: fit-content;
+    }
+    select{
+        width: fit-content;
+        background-color: black;
+        color: $white;
+        border-radius: 0;
+    }
+    p{
+        margin:0;
+    }
+    .form-check{
+        padding:0;
+        .form-check-input{
+        background-color:$black;
+        font-size: 25px;
+        margin-right: 0.5em;
+        border-radius:0 !important;
+        color: $grey;
+        margin-left:0;
+        &:checked{
+        background-color:$black;
+        border-radius:0;
+        border-color: $grey
+    }
+    }
+    }
+    .row{
+        border-bottom: 1px solid $grey;
+        padding: 1rem;
+        .no-border{
+            border-bottom: none;
+        }
+    }
+}

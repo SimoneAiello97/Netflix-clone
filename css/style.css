@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: #141414;
+}
+nav .navbar-brand img {
+  height: 50px;
+}
+nav .nav-link {
+  color: #ffffff;
+}
+nav .nav-link:hover {
+  color: red;
+}
+nav .container-fluid {
+  color: #ffffff;
+}
+nav .container-fluid i,
+nav .container-fluid p {
+  margin: 0;
+}
+nav .container-fluid i:hover,
+nav .container-fluid p:hover {
+  color: red;
+}
+nav .container-fluid ul {
+  margin: 0;
+}
+nav .container-fluid .dropdown {
+  list-style-type: none;
+}
+nav .container-fluid .dropdown .dropdown-menu {
+  background-color: #141414;
+  position: absolute;
+  left: -110px;
+  right: 0;
+}
+nav .container-fluid .dropdown .dropdown-menu .dropdown-item {
+  width: 100%;
+  color: #ffffff;
+}
+nav .container-fluid .dropdown .dropdown-menu .dropdown-item:hover {
+  color: #141414;
+}
+nav .container-fluid .dropdown .dropdown-menu .dropdown-item i:hover {
+  color: #141414;
+}
+nav .container-fluid .dropdown img {
+  height: 30px;
+  margin: 0;
+}
+nav .container-fluid .dropdown .dropdown-toggle {
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #141414;
+  color: #ffffff;
+}
+.hero i:hover, .hero p:hover {
+  color: #ffffff;
+}
+.hero .btn {
+  border-radius: 0;
+  color: #ffffff;
+}
+.hero .dropdown .dropdown-toogle a:hover {
+  color: #ffffff;
+}
+.hero .dropdown .dropdown-menu {
+  background: #141414;
+}
+.hero .dropdown .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  background: #141414;
+  width: 100%;
+}
+.hero .dropdown .dropdown-menu .dropdown-item:hover {
+  color: #141414;
+  background-color: #ffffff;
+}
+
+.scrollFilm {
+  background-color: #141414;
+  color: #ffffff;
+}
+.scrollFilm .slide {
+  padding: 2rem 0;
+  overflow-x: hidden;
+}
+.scrollFilm .slide .carousel-inner {
+  overflow: initial;
+}
+.scrollFilm .carousel-control-next, .scrollFilm .carousel-control-prev {
+  width: auto;
+}
+.scrollFilm img {
+  transition: transform 450ms;
+}
+.scrollFilm img:hover {
+  transform: scale(1.08);
+}
+
+footer {
+  font-size: 10px;
+  padding-top: 7rem;
+  padding-bottom: 1.5rem;
+  background-color: #141414;
+  color: #808080;
+}
+footer a {
+  text-decoration: none;
+  color: #808080;
+}
+footer a:hover {
+  color: #ffffff;
+}
+footer i {
+  font-size: 20px;
+}
+footer i:hover {
+  color: #ffffff;
+}
+footer .btn-outline-secondary {
+  font-size: 10px;
+  padding: 0.2rem;
+  border-radius: 0;
+}
+
+.profile {
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 16px;
+}
+.profile h1 {
+  font-size: 60px;
+}
+@media (max-width: 768px) {
+  .profile h1 {
+    font-size: 40px;
+  }
+}
+.profile .grey {
+  color: #ccccc6;
+  font-size: 1.3rem;
+  margin-top: 1.5rem !important;
+}
+.profile .allrow {
+  border-bottom: none !important;
+}
+.profile .strive {
+  width: 95%;
+  color: #ffffff;
+}
+.profile .offset-4 .btn-secondary {
+  background-color: #333333;
+}
+.profile .position-relative {
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  display: flex;
+  justify-content: center;
+}
+.profile .img-fluid {
+  max-height: 150px;
+}
+.profile .badge {
+  top: 70px;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+.profile .badge a {
+  color: #ffffff;
+}
+.profile button {
+  border-radius: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.profile select {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 0;
+}
+.profile p {
+  margin: 0;
+}
+.profile .form-check {
+  padding: 0;
+}
+.profile .form-check .form-check-input {
+  background-color: #141414;
+  font-size: 25px;
+  margin-right: 0.5em;
+  border-radius: 0 !important;
+  color: #808080;
+  margin-left: 0;
+}
+.profile .form-check .form-check-input:checked {
+  background-color: #141414;
+  border-radius: 0;
+  border-color: #808080;
+}
+.profile .row {
+  border-bottom: 1px solid #808080;
+  padding: 1rem;
+}
+.profile .row .no-border {
+  border-bottom: none;
+}
+
+.setting {
+  margin-bottom: 5rem;
+}
+@media (max-width: 568px) {
+  .setting {
+    font-size: 12px !important;
+  }
+}
+.setting .btn {
+  background-color: rgb(209, 205, 205);
+  color: #000;
+}
+@media (max-width: 568px) {
+  .setting .btn {
+    font-size: 10px !important;
+  }
+}
+.setting .img-fluid {
+  max-width: 30px !important;
+}
+.setting .ultra {
+  max-width: 70px !important;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0.1rem;
+}
+.setting a {
+  text-decoration: none;
+  color: #00a2ff;
+}
+.setting p {
+  margin: 0;
+}
+@media (max-width: 568px) {
+  .setting p {
+    font-size: 18px !important;
+  }
+}
+.setting .riga {
+  padding: 1rem 0;
+  border-bottom: 1px solid #a3a3a3;
+  display: flex;
+  align-items: center;
+}
+.setting .intermedia {
+  border-bottom: 1px solid #a3a3a3;
+  padding-bottom: 1em;
+}
+.setting .ultima {
+  border-bottom: 0px !important;
+}
+
+.row1 {
+  color: white;
+  background-color: #141414;
+}
+.row1 .row__poster {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 150px !important;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.row1 .row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row1 .row__poster:hover {
+  transform: scale(1.08);
+}
+.row1 .row__posters::-webkit-scrollbar {
+  display: none;
+}
+.row1 .row__posterLarge {
+  max-height: 250px;
+}
+.row1 .row__posterLarge:hover {
+  transform: scale(1.09);
+}
+.row1 .bottom220 {
+  bottom: 220px;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}/*# sourceMappingURL=style.css.map */

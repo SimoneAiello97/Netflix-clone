@@ -1,0 +1,33 @@
+.hero{
+    background-color: $black;
+    color: $white;
+    i,p{
+        &:hover{
+            color: $white;
+        }
+    }
+    .btn {
+        border-radius: 0;
+        color: $white;
+    }
+    .dropdown{
+        
+        .dropdown-toogle a{
+            &:hover{
+                color: $white;
+            }
+        }
+        .dropdown-menu{
+            background: $black;
+                .dropdown-item{
+            color: $white;
+            background: $black;
+            width: 100%;
+            &:hover{
+                color: $black;
+                background-color: $white;
+            }
+            }
+        }    
+    }   
+}   

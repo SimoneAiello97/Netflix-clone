@@ -1,0 +1,50 @@
+.setting{
+    margin-bottom:5rem;
+ @media (max-width: 568px) {
+           
+ font-size: 12px !important;
+ }
+    .btn{
+        background-color: rgb(209, 205, 205);
+        color: #000;
+        @media (max-width: 568px) {
+           
+            font-size: 10px !important;
+            }
+    }
+    .img-fluid{
+        max-width: 30px !important;
+    }
+    .ultra{
+            max-width: 70px !important;
+            border: 1px solid #000;
+            border-radius:5px;
+            padding: 0.1rem 
+        }
+    a{
+        text-decoration:none;
+        color:$blu
+    }
+    p{
+        margin:0;
+        @media (max-width: 568px) {
+           
+            font-size: 18px !important;
+            }
+
+    }
+    .riga{
+        padding: 1rem 0;
+        border-bottom: 1px solid #a3a3a3;
+        display: flex;
+        align-items: center
+    }
+    .intermedia{
+        border-bottom: 1px solid #a3a3a3;
+        padding-bottom: 1em;
+    }
+    .ultima{
+            border-bottom:0px !important
+        }
+        
+}
